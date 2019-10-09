@@ -52,7 +52,7 @@ void printList(Node *node)
     printf("NULL\n"); 
 } 
   
-/* Function to create a new node with given data */
+
 Node *newNode(const char *str) 
 { 
     Node *new_node = new Node; 
@@ -61,7 +61,7 @@ Node *newNode(const char *str)
     return new_node; 
 } 
   
-/* Driver program to test above function*/
+
 int main() 
 { 
     Node *head = newNode("a"); 
